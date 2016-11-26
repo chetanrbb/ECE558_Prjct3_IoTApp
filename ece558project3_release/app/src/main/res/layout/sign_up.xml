@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center_vertical"
+              android:padding="10dp"
+              android:weightSum="1">
+
+
+    <!-- TODO: EditText UI Control for editTextUserName -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name: "
+        android:textSize="20dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="10dp"
+        />
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+
+        android:layout_marginLeft="10dp"
+        />
+
+    <!-- TODO: EditText UI Control for editTextPassword -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password: "
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_gravity="top"
+
+        android:layout_marginLeft="10dp"/>
+
+    <!-- TODO: EditText UI Control for editTextConfirmPassword -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Re-enter Password"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:id="@+id/etReEnterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="10dp"/>
+
+
+    <!-- TODO: EditText UI Control for Latitude -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/etLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <!-- TODO: EditText UI Control for Longitude-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Longitude"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/etLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="10dp"/>
+
+    <!-- TODO: Button UI Control for buttonCreateAccount -->
+    <Button
+        android:id="@+id/bCreateAccount"
+        android:layout_width="164dp"
+        android:layout_marginTop="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/create_account"/>
+
+
+    <!-- TODO: Button UI Control for Home_Button -->
+    <Button
+        android:id="@+id/bSetLocation"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Set_Home_Location"
+        />
+
+</LinearLayout>

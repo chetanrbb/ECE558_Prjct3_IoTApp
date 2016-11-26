@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hint</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="email_signup_text">Sign Up</string>
+
+    <string name="Set_Home_Location">Set Home Location</string>
+    <string name="create_account">Create Account</string>
+    <string name="longitude">Enter Longitude</string>
+    <string name="latitude">Enter Latitude</string>
+    <string name="user_name">Enter User Name</string>
+    <string name="password">Enter Password</string>
+    <string name="confirm_password">Re-enter Password</string>
+    <string name="location_current_location">Current Location</string>
+    <string name="Enter_Current_Location">Enter Current Location</string>
+    <string name="Current_location_text">Current Location</string>
+
+    <!--String related to Maps -->
+
+    <string name="action_settings">Setting</string>
+    <string name="google_place_api">YOUR KEY HERE</string>
+
+    <!--String related to php server-->
+    <string name="app_name3">php_extended</string>
+
+</resources>
